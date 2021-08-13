@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap");
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+}
+.logo {
+  color: #b4c01d;
+  font-size: 5rem;
+  margin: 1rem 1rem 5rem 1rem;
+}
+.form-container {
+  background-color: #5a5d33;
+  width: 40rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  height: 10rem;
+  transition: all 1s;
+}
+.username,
+.password,
+.submit-button {
+  width: 10rem;
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-family: inherit;
+  color: #47492b;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.submit-button {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.submit-button:hover {
+  background-color: #ccbc1e;
+}
+.hide {
+  display: none;
+}
+.welcome {
+  color: #ccbc1e;
+}
+.account-info {
+  width: 1200px;
+  background-color: #eee;
+  overflow: hidden;
+}
+.account-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem;
+}
+.account-balance {
+  color: #ccbc1e;
+}
+.transactions {
+  width: 1000px;
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.transaction {
+  border-radius: 1rem;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  color: #47492b;
+  font-size: 1rem;
+  margin: 1rem;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deposit,
+.withdraw {
+  margin: 1rem;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+.deposit:hover,
+.withdraw:hover {
+  background-color: #ccbc1e;
+}

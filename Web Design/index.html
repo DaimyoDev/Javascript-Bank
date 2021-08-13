@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript Bank</title>
+  </head>
+  <body>
+    <h1 class="logo">Javascript Bank</h1>
+    <!-- Create Account -->
+    <div class="form-container">
+      <form class="form">
+        <input type="text" class="username" placeholder="Username" />
+        <input type="password" class="password" placeholder="Password" />
+        <button class="submit-button">Create Account</button>
+      </form>
+    </div>
+    <!-- Transactions and account data -->
+    <div class="account-info hide">
+      <div class="account-nav">
+        <h1 class="welcome">Welcome Daimyo!</h1>
+        <h1 class="account-balance">0</h1>
+      </div>
+      <div class="buttons">
+        <button class="deposit">Deposit</button>
+        <button class="withdraw">Withdraw</button>
+      </div>
+      <div class="transactions"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
